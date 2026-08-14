@@ -53,3 +53,10 @@ docker pull <ECR_REPO>:<COMMIT_SHA>
 docker stop flask-app || true
 docker rm flask-app || true
 docker run -d --name flask-app -p 5000:5000 <ECR_REPO>:<COMMIT_SHA>
+
+
+Screenshot:
+<img width="1272" height="602" alt="image" src="https://github.com/user-attachments/assets/588b50f4-2b2f-42ac-bcd2-eb18437a4226" />
+
+<img width="1318" height="782" alt="image" src="https://github.com/user-attachments/assets/f846c117-247e-4c1f-b84b-23d176d86aab" />
+
